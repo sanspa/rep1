@@ -16,10 +16,12 @@
     <a-camera gps-new-camera='gpsMinDistance: 5'>
     </a-camera>
     <a-entity gltf-model="./models/mobil.glb" scale="500 500 500"
-      gps-new-entity-place="latitude: -7.932629; longitude: 112.597573" rotation="0 0 0"></a-entity>
+      gps-new-entity-place="latitude: -7.932629; longitude: 112.597573" rotation="0 0 0"
+      animation="property:rotation;from:0 0 0; to:360 0 0; dur: 4000; loop:true"></a-entity>
 
     <a-entity gltf-model="./models/ayam.glb" scale="500 500 500"
-      gps-new-entity-place="latitude: -7.932620; longitude: 112.597570" animation-mixer></a-entity>
+      gps-new-entity-place="latitude: -7.932620; longitude: 112.597570" animation-mixer
+      animation="property:rotation;from:0 0 0; to:360 0 0; dur: 1000; loop:true"></a-entity>
   </a-scene>
 </body>
 
